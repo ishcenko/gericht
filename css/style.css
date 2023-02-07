@@ -1,0 +1,65 @@
+body {
+    font-family: Robto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    font-weight: 400;
+}
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.header {
+    background-color: black;
+}
+.header-logo {
+    font-family: 'Cormorant Upright';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-right: 150px;
+}
+.header-item {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+.header-item-contact {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.header-cotainer {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.navigation {
+    display: flex;
+}
+.header-menu {
+    display: flex;
+    gap: 32px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+.header-contact {
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    align-items: center;
+}
