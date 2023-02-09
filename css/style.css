@@ -66,6 +66,7 @@ body {
 
 
 /* Hero */
+
 .content-hero {
     display: flex;
     width: 1300px;
@@ -135,4 +136,79 @@ body {
 .hero-img {
     display: flex;
     margin-left: auto;
+}
+
+/* our history */
+.our-content {
+    display: flex;
+}
+.our-history {
+    padding-top: 340px;
+    padding-bottom: 330px;
+    background-image: url(../image/bg-history.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .our-history {
+        background-image: url(../image/bg-history@2x.jpg);
+    }
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .our-history {
+        background-image: url(../image/bg-history@3x.jpg);
+    }
+}
+.left-history {
+    width: 523px;
+    position: relative;
+
+}
+.his-left {
+    text-align: end;
+}
+.right-history {
+    width: 523px;
+    margin-left: auto;
+}
+.left-btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.title-history {
+    font-family: 'Cormorant Upright';
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+}
+.txt-history {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+}
+.btn-history {
+    font-family: 'Cormorant Upright';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #0C0C0C;
+    width: 141px;
+    height: 44px;
+    background: #DCCA87;
 }
