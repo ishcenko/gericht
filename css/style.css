@@ -385,7 +385,7 @@ img {
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        .our-history {
+        .believe {
             background-image: url(../image/bg-history@2x.jpg);
         }
     }
@@ -393,7 +393,7 @@ img {
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        .our-history {
+        .believe {
             background-image: url(../image/bg-history@3x.jpg);
         }
     }
@@ -461,3 +461,31 @@ img {
         color: #AAAAAA
     }
     
+
+
+    /* footer */
+    .footer {
+        width: 1920px;
+        height: 837px;
+        background-image: url(../image/bg-history.jpg);
+         background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .footer {
+            background-image: url(../image/bg-history@2x.jpg);
+        }
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .footer {
+            background-image: url(../image/bg-history@3x.jpg);
+        }
+    }
