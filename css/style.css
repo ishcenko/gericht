@@ -10,6 +10,23 @@ body {
     padding-right: 16px;
     padding-left: 16px;
 }
+p,
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
 .header {
     background-color: #0C0B08;
 }
@@ -203,6 +220,84 @@ body {
     color: #AAAAAA;
 }
 .btn-history {
+    font-family: 'Cormorant Upright';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #0C0C0C;
+    width: 141px;
+    height: 44px;
+    background: #DCCA87;
+}
+
+/* book-reservations */
+.book-reservations {
+    padding-top: 157px;
+    padding-bottom: 152px;
+    background-color: #0C0B0C;
+}
+.book-section {
+    border: 1px solid rgba(220, 202, 135, 0.2);
+    box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+}
+.reservations {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.reserv {
+    font-family: 'Cormorant Upright';
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.book-reserv {
+    font-family: 'Cormorant Upright';
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;    
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+    margin-bottom: 64px;
+}
+.form-reserv {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 64px;
+}
+.book-input {
+    text-align: start;
+    width: 421px;
+    height: 60px;
+    padding-left: 22px;
+    border: 1px solid #F5EFDB;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.book-input::placeholder {
+    text-align: left;
+    font-family: 'Cormorant Upright';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #faf8f8;
+}
+.button-book {
+    text-align: center;
+}
+.book-btn {
     font-family: 'Cormorant Upright';
     font-weight: 700;
     font-size: 16px;
