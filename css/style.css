@@ -457,7 +457,7 @@ img {
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
-    .our-history {
+    .menu {
         background-image: url(../image/bg-menu@2x.jpg);
     }
 }
@@ -465,7 +465,7 @@ img {
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
-    .our-history {
+    .menu {
         background-image: url(../image/bg-menu@3x.jpg);
     }
 }
