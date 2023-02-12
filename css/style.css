@@ -16,7 +16,12 @@ h2,
 h3 {
     margin: 0;
 }
-
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
 ul {
     margin: 0;
     padding-left: 0;
@@ -28,7 +33,7 @@ img {
     height: auto;
 }
 .header {
-    width: 1920px;
+    width: 1355px;
     background-color: #0C0B08;
 }
 .header-logo {
@@ -101,7 +106,7 @@ img {
     padding-left: 25px;
 }
 .hero {
-    width: 1920px;
+    width: 1355px;
     background-color: #0C0B08;
     display: flex;
     
@@ -159,7 +164,7 @@ img {
 
 /* our history */
 .our-history {
-    width: 1920px;
+    width: 1355px;
 }
 .our-content {
     display: flex;
@@ -238,12 +243,12 @@ img {
 
 /* book-reservations */
 .section-big {
-    width: 1623px;
+    width: 1355px;
     margin-right: auto;
     margin-left: auto;
 }
 .book-reservations {
-    width: 1920px;
+    width: 1355px;
     padding-top: 157px;
     padding-bottom: 152px;
     
@@ -325,7 +330,7 @@ img {
 }
 /* menu */
 .menu {
-    width: 1920px;
+    width: 1355px;
     padding-top: 261px;
     padding-bottom: 262px;
     background-image: url(../image/bg-menu.jpg);
@@ -372,7 +377,7 @@ img {
 
 /* believe */
 .believe {
-    width: 1920px;
+    width: 1355px;
     padding-top: 128px;
     padding-bottom: 128px;
     background-image: url(../image/bg-history.jpg);
@@ -468,7 +473,7 @@ img {
         padding-top: 350px;
         padding-left: 284px;
         padding-right: 284px;
-        width: 1920px;
+        width: 1355px;
         /* height: 837px; */
         background-image: url(../image/bg-history.jpg);
          background-repeat: no-repeat;
