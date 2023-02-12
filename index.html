@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https: //fonts.googleapis.com/css2? family= Babylonica & family= Cormorant+Upright:wght@700 & family= Open+Sans:ital,wght@0,700;1,700 & display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -155,44 +158,57 @@
 
 
     <footer class="footer">
-        <address>
-            <p>Believe</p>
+        <div class="footer-ftr">
+            <div class="ftr-left">
+            <p class="ftr-lr-txt">Contact Us</p>
+        <address> 
             <ul>
-                <li><a href="9W53rdSt,NewYork,NY10019,USA">9 W 53rd St, New York, NY 10019, USA</a></li>
-                <li><a href="tel:+1212-344-1230">+1 212-344-1230</a></li>
-                <li><a href="tel:+1212-344-1230">+1 212-555-1230</a></li>
+                <li class="address-link"><a class="ftr-address link-map" href="9W53rdSt,NewYork,NY10019,USA">9 W 53rd St, New York, NY 10019, USA</a></li>
+                <li class="address-link"><a class="ftr-address" href="tel:+1212-344-1230">+1 212-344-1230</a></li>
+                <li class="address-link"><a class="ftr-address" href="tel:+1212-344-1230">+1 212-555-1230</a></li>
             </ul>
         </address>
+        </div>
 
-        <a href="#">Gerícht</a>
-        <p>"The best way to find yourself is to lose yourself in the service of others.”</p>
+        <div class="ftr-center">
+            <a class="ftr-logo" href="#">Gerícht</a>
+        <p class="ftr-text">"The best way to find yourself is to lose yourself in the service of others.”</p>
         <svg width="40" height="9">
             <use href="./image/symbol-defs.svg#icon-frame"></use>
         </svg>
-        <ul>
+        <ul class="items-soc">
             
             <li class="icon-item-soc">
                 <a class="icon-link-soc" href="https://facebook.com/">
-                    <svg class="soc-item" width="16" height="16">
-                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                    <svg class="soc-item" width="24" height="24">
+                        <use href="./image/symbol-defs.svg#icon-facebook"></use>
                     </svg>
                 </a>
             </li>
             <li class="icon-item-soc">
                 <a class="icon-link-soc" href="https://twitter.com/">
-                    <svg class="soc-item" width="16" height="16">
-                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                    <svg class="soc-item" width="24" height="24">
+                        <use href="./image/symbol-defs.svg#icon-twitter"></use>
                     </svg>
                 </a>
             </li>
             <li class="icon-item-soc">
                 <a class="icon-link-soc" href="https://www.instagram.com/">
-                    <svg class="soc-item" width="16" height="16">
-                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                    <svg class="soc-item" width="24" height="24">
+                        <use href="./image/symbol-defs.svg#icon-instagram"></use>
                     </svg>
                 </a>
             </li>
         </ul>
+        </div>
+
+        <div class="ftr-right">
+            <p class="ftr-lr-txt">Working Hours</p>
+            <p class="ftr-address ftr-address-right">Monday-Friday: 08:00 am -12:00 am</p>
+            <p class="ftr-address ftr-address-right">Saturday-Sunday: 07:00am -11:00 pm</p>
+        </div>
+        </div>
+        <p class="copyright">2021 Gerícht. All Rights reserved.</p>
     </footer>
 </body>
 </html>
