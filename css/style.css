@@ -201,9 +201,21 @@ img {
 .his-left {
     text-align: end;
 }
+.p-history {
+    margin-top: 17px;
+}
+.his-left-svg {
+    right: 0;
+    position: absolute;
+    rotate: 180deg;
+}
 .right-history {
     width: 523px;
     margin-left: auto;
+}
+.svg-left {
+    position: absolute;
+    right: 0;
 }
 .left-btn {
     position: absolute;
