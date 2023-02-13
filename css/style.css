@@ -228,6 +228,7 @@ img {
     line-height: 175%;
     letter-spacing: 0.04em;
     color: #AAAAAA;
+    margin-bottom: 32px;
 }
 .btn-history {
     font-family: 'Cormorant Upright';
