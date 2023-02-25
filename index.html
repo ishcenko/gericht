@@ -10,7 +10,7 @@
     <link href="https: //fonts.googleapis.com/css2? family= Babylonica & family= Cormorant+Upright:wght@700 & family= Open+Sans:ital,wght@0,700;1,700 & display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -284,11 +284,6 @@
         <!-- Our Laurels -->
         <section class="laurels">
             <div class="container section-flex">
-                <!-- <div class="icon-g">
-                    <svg class="icon icon-g-2" width="360" height="379">
-                        <use xlink:href="./image/symbol-defs.svg#icon-g-2"></use>
-                    </svg>
-                </div> -->
                 <div class="left-laurels">
                     <p class="text-laurels">Awards & recognition</p>
                     <svg width="40" height="9">
@@ -351,10 +346,11 @@
         </section>
 
         <!-- blogs -->
+
         <section class="section-blogs">
             <div class="container">
                 <p class="text-blogs">Blogs</p>
-                <div>
+                <div class="svg-blog">
                      <svg width="40" height="9">
                         <use href="./image/symbol-defs.svg#icon-frame"></use>
                     </svg>
@@ -369,8 +365,10 @@
                         alt="steak"
                         width="412"
                         height="430">
-                        <time class="date-blog" datetime="2021-04-16">16 Apr 2021</time>
-                        <p class="name-blogers">- Annalisa L</p>
+                        <div class="date-name">
+                            <time class="date-blog" datetime="2021-04-16">16 Apr 2021</time>
+                            <p class="name-blogers">- Annalisa L</p>
+                        </div>
                         <a class="link-blogs" href="">tips for prepping and caring for your grill</a>
                         <p class="txt-blogs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
                         <span class="remark-blogs">Read More</span>
@@ -382,8 +380,10 @@
                         alt="grilled-vegetables"
                         width="412"
                         height="430">
-                        <time class="date-blog" datetime="2021-05-23">23 May 2021</time>
-                        <p class="name-blogers">-John Micheal</p>
+                        <div class="date-name">
+                            <time class="date-blog" datetime="2021-05-23">23 May 2021</time>
+                            <p class="name-blogers">-John Micheal</p>
+                        </div>
                         <a class="link-blogs" href="">summer cocktails and mocktails</a>
                         <p class="txt-blogs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
                         <span class="remark-blogs">Read More</span>
@@ -391,9 +391,14 @@
                     <li>
                         <img srcset="./image/cocktail@2x.jpg 2x,
                         ./image/cocktail@3x.jpg 3x"
-                        src="./image/cocktail.jpg" alt="">
-                        <time class="date-blog" datetime="2021-08-06">06 Aug 2021</time>
-                        <p class="name-blogers">-Fred W</p>
+                        src="./image/cocktail.jpg" 
+                        alt="cocktail"
+                        width="412"
+                        height="430">
+                        <div class="date-name">
+                            <time class="date-blog" datetime="2021-08-06">06 Aug 2021</time>
+                            <p class="name-blogers">-Fred W</p>
+                        </div>
                         <a class="link-blogs" href="">easy cooking for college students</a>
                         <p class="txt-blogs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
                         <span class="remark-blogs">Read More</span>
